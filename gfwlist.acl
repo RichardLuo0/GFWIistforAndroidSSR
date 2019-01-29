@@ -1,5 +1,4 @@
 # gfw list rules for shadowsocks-libev $
-# updated on 2016-09-08 12:09:55$
 [bypass_all]
 
 [proxy_list]
@@ -3769,7 +3768,7 @@
 ^(.*\.)?zzcartoon\.com$
 ^(.*\.)?phobos\.apple\.com$
 
-#twitch
+# twitch
 ^(.*\.)?twitch\.tv$
 ^(.*\.)?ttvnw\.net$
 ^(.*\.)?jtvnw\.net$
@@ -3784,6 +3783,16 @@
 (^|\.)\w*epicgames\w*\.\w*$
 (^|\.)helpshift\.com$
 
+# Discord
+(^|\.)discordapp\.com$
+(^|\.)discordapp\.net$
+
+# Niconico
+^(.*\.)?nicovideo\.jp$
+
+# globalvoices
+^(.*\.)?globalvoices\.org$
+
 # Other
 ^(.*\.)?doub\.io$
 ^(.*\.)?gameloft\.com$
@@ -3791,3 +3800,8 @@
 ^(.*\.)?reddit\.com$
 ^(.*\.)?teddysun\.com$
 ^(.*\.)?unsplash\.com$
+^(.*\.)?pixiv\.net$
+^(.*\.)?tv\.com$
+^(.*\.)?freeweibo\.com$
+(^|\.)mega\.nz$
+^(.*\.)?pegi\.info$
