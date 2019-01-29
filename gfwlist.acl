@@ -339,7 +339,7 @@
 ^(.*\.)?gmail\.com$
 ^(.*\.)?gmodules\.com$
 ^(.*\.)?goo\.gl$
-^(.*\.)?google(\.[^.]{2,4}){1,2}$
+^((?!mtalk).*\.)?google(\.[^.]{2,4}){1,2}$
 ^(.*\.)?googleapis(\.[^.]{2,4}){1,2}$
 ^(.*\.)?googleapps\.com$
 ^(.*\.)?googleartproject\.com$
