@@ -3805,3 +3805,6 @@
 ^(.*\.)?freeweibo\.com$
 (^|\.)mega\.nz$
 ^(.*\.)?pegi\.info$
+
+#github
+(^|\.)raw\.githubusercontent\.com$
