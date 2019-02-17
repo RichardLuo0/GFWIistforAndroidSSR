@@ -2373,7 +2373,7 @@
 ^(.*\.)?news\.omy\.sg$
 ^(.*\.)?showbiz\.omy\.sg$
 ^(.*\.)?on\.cc$
-^(.*\.)?onedrive\.live\.com$
+(^|\.)onedrive\.live\.com$
 ^(.*\.)?www\.onion\.city$
 ^(.*\.)?onlinecha\.com$
 ^(.*\.)?onlineyoutube\.com$
@@ -3767,6 +3767,7 @@
 ^(.*\.)?zyzc9\.com$
 ^(.*\.)?zzcartoon\.com$
 ^(.*\.)?phobos\.apple\.com$
+(^|\.)collector\.githubapp\.com$
 
 # twitch
 ^(.*\.)?twitch\.tv$
