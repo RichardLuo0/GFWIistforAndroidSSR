@@ -3809,3 +3809,6 @@
 
 #github
 (^|\.)raw\.githubusercontent\.com$
+
+#.dev
+(^|\.)*\.dev$
