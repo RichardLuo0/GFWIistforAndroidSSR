@@ -4,6 +4,7 @@
 [proxy_list]
 # Google
 ^(((?!mtalk).)*\.)?google(\.[^.]{2,4}){1,2}$
+^(.*\.)?googleapis(\.[^.]{2,4}){1,2}$
 
 # twitch
 ^(.*\.)?twitch\.tv$
@@ -55,10 +56,7 @@
 109.239.140.0/24
 149.154.160.0/20
 
-^(.*\.)?4tern\.com$
-^(.*\.)?adorama\.com$
 ^(.*\.)?akiba-web\.com$
-^(.*\.)?alien-ufos\.com$
 ^(.*\.)?altrec\.com$
 ^(.*\.)?arena\.taipei$
 ^(.*\.)?asianspiss\.com$
@@ -385,7 +383,6 @@
 ^(.*\.)?gmail\.com$
 ^(.*\.)?gmodules\.com$
 ^(.*\.)?goo\.gl$
-^(.*\.)?googleapis(\.[^.]{2,4}){1,2}$
 ^(.*\.)?googleapps\.com$
 ^(.*\.)?googleartproject\.com$
 ^(.*\.)?googleblog\.com$
