@@ -2,6 +2,59 @@
 [bypass_all]
 
 [proxy_list]
+# Google
+^(((?!mtalk).)*\.)?google(\.[^.]{2,4}){1,2}$
+
+# twitch
+^(.*\.)?twitch\.tv$
+^(.*\.)?ttvnw\.net$
+^(.*\.)?jtvnw\.net$
+^(.*\.)?akamaized\.net$
+
+# Onenote
+^(.*\.)?live\.net$
+^(.*\.)?live\.com$
+^(.*\.)?onenote\.com$
+
+# Epicgames
+(^|\.)\w*epicgames\w*\.\w*$
+(^|\.)helpshift\.com$
+
+# Discord
+(^|\.)discordapp\.com$
+(^|\.)discordapp\.net$
+
+# Niconico
+^(.*\.)?nicovideo\.jp$
+
+# globalvoices
+^(.*\.)?globalvoices\.org$
+
+# Other
+^(.*\.)?doub\.io$
+^(.*\.)?gameloft\.com$
+^(.*\.)?quora\.com$
+^(.*\.)?reddit\.com$
+^(.*\.)?teddysun\.com$
+^(.*\.)?unsplash\.com$
+^(.*\.)?pixiv\.net$
+^(.*\.)?tv\.com$
+^(.*\.)?freeweibo\.com$
+(^|\.)mega\.nz$
+^(.*\.)?pegi\.info$
+
+#github
+(^|\.)?githubusercontent\.com$
+
+#.dev
+(^|\.)*\.dev$
+
+# Telegram IPs$
+91.108.4.0/22
+91.108.56.0/22
+109.239.140.0/24
+149.154.160.0/20
+
 ^(.*\.)?4tern\.com$
 ^(.*\.)?adorama\.com$
 ^(.*\.)?akiba-web\.com$
@@ -86,7 +139,6 @@
 ^(.*\.)?pandora\.com$
 ^(.*\.)?parkansky\.com$
 ^(.*\.)?pure18\.com$
-^(.*\.)?qq\.co\.za$
 ^(.*\.)?r18\.com$
 ^(.*\.)?rd\.com$
 ^(.*\.)?rdio\.com$
@@ -119,7 +171,7 @@
 ^(.*\.)?lsxszzg\.com$
 ^(.*\.)?china-mmm\.net$
 ^(.*\.)?china-mmm\.sa\.com$
-^(.*\.)?s3-ap-northeast-1\.amazonaws\.com$
+^(.*)?\.amazonaws\.com$
 ^(.*\.)?avmo\.pw$
 ^(.*\.)?avmoo\.com$
 ^(.*\.)?avmoo\.net$
@@ -333,7 +385,6 @@
 ^(.*\.)?gmail\.com$
 ^(.*\.)?gmodules\.com$
 ^(.*\.)?goo\.gl$
-^(((?!mtalk).)*\.)?google(\.[^.]{2,4}){1,2}$
 ^(.*\.)?googleapis(\.[^.]{2,4}){1,2}$
 ^(.*\.)?googleapps\.com$
 ^(.*\.)?googleartproject\.com$
@@ -3749,8 +3800,6 @@
 ^(.*\.)?zonaeuropa\.com$
 ^(.*\.)?zonghexinwen\.com$
 ^(.*\.)?zonghexinwen\.net$
-^(.*\.)?zootool\.com$
-^(.*\.)?zoozle\.net$
 ^(.*\.)?writer\.zoho\.com$
 ^(.*\.)?zshare\.net$
 ^(.*\.)?zsrhao\.com$
@@ -3763,53 +3812,10 @@
 ^(.*\.)?zzcartoon\.com$
 ^(.*\.)?phobos\.apple\.com$
 (^|\.)collector\.githubapp\.com$
-
-# twitch
-^(.*\.)?twitch\.tv$
-^(.*\.)?ttvnw\.net$
-^(.*\.)?jtvnw\.net$
-^(.*\.)?akamaized\.net$
-
-# Onenote
-^(.*\.)?live\.net$
-^(.*\.)?live\.com$
-^(.*\.)?onenote\.com$
-
-# Epicgames
-(^|\.)\w*epicgames\w*\.\w*$
-(^|\.)helpshift\.com$
-
-# Discord
-(^|\.)discordapp\.com$
-(^|\.)discordapp\.net$
-
-# Niconico
-^(.*\.)?nicovideo\.jp$
-
-# globalvoices
-^(.*\.)?globalvoices\.org$
-
-# Other
-^(.*\.)?doub\.io$
-^(.*\.)?gameloft\.com$
-^(.*\.)?quora\.com$
-^(.*\.)?reddit\.com$
-^(.*\.)?teddysun\.com$
-^(.*\.)?unsplash\.com$
-^(.*\.)?pixiv\.net$
-^(.*\.)?tv\.com$
-^(.*\.)?freeweibo\.com$
-(^|\.)mega\.nz$
-^(.*\.)?pegi\.info$
-
-#github
-(^|\.)?githubusercontent\.com$
-
-#.dev
-(^|\.)*\.dev$
-
-# Telegram IPs$
-91.108.4.0/22
-91.108.56.0/22
-109.239.140.0/24
-149.154.160.0/20
+^(.*\.)?crashlytics\.com$
+^(.*\.)?addthis\.com$
+^(.*\.)?doubleclick\.net$
+^(.*\.)?winudf\.com$
+^(.*\.)?msedge\.net$
+^(.*\.)?googlesyndication\.com$
+^(.*\.)?hockeyapp\.net$
