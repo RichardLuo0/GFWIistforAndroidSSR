@@ -18,7 +18,7 @@ do
 		echo "$url $ping_time ms" >> NoNeedToProxy.txt
 	else
 		echo "$url need proxy"
-		result_code=`curl -I -m $timeout -o /dev/null -s -w %{http_code} $url`
+		result_code=`curl -I -m $timeout -o /dev/null -s -w %{http_code} -L $url`
 		if [ $result_code -ne 200 ]
 		then
 			echo "$url $result_code" >> fail.txt
