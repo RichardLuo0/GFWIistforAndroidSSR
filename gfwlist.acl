@@ -56,6 +56,15 @@
 109.239.140.0/24
 149.154.160.0/20
 
+^(.*\.)?phobos\.apple\.com$
+(^|\.)collector\.githubapp\.com$
+^(.*\.)?crashlytics\.com$
+^(.*\.)?addthis\.com$
+^(.*\.)?doubleclick\.net$
+^(.*\.)?winudf\.com$
+^(.*\.)?msedge\.net$
+^(.*\.)?googlesyndication\.com$
+^(.*\.)?hockeyapp\.net$
 ^(.*\.)?akiba-web\.com$
 ^(.*\.)?altrec\.com$
 ^(.*\.)?arena\.taipei$
@@ -76,16 +85,13 @@
 ^(.*\.)?expekt\.com$
 ^(.*\.)?extmatrix\.com$
 ^(.*\.)?fakku\.net$
-^(.*\.)?filesor\.com$
 ^(.*\.)?financetwitter\.com$
-^(.*\.)?findmima\.com$
 ^(.*\.)?flipboard\.com$
 ^(.*\.)?flitto\.com$
 ^(.*\.)?fxnetworks\.com$
 ^(.*\.)?gettyimages\.com$
 ^(.*\.)?getuploader\.com$
 ^(.*\.)?github\.com$
-^(.*\.)?glype\.com$
 ^(.*\.)?go141\.com$
 ^(.*\.)?hautelook\.com$
 ^(.*\.)?hautelookcdn\.com$
@@ -99,16 +105,12 @@
 ^(.*\.)?hustlercash\.com$
 ^(.*\.)?www\.hustlercash\.com$
 ^(.*\.)?hybrid-analysis\.com$
-^(.*\.)?ilovelongtoes\.com$
-^(.*\.)?imgmega\.com$
-^(.*\.)?imgur\.com$
 ^(.*\.)?javhub\.net$
 ^(.*\.)?javhuge\.com$
 ^(.*\.)?javlibrary\.com$
 ^(.*\.)?jcpenney\.com$
 ^(.*\.)?juliepost\.com$
 ^(.*\.)?khatrimaza\.org$
-^(.*\.)?leisurepro\.com$
 ^(.*\.)?longtoes\.com$
 ^(.*\.)?lovetvshow\.com$
 ^(.*\.)?macgamestore\.com$
@@ -370,7 +372,6 @@
 ^(.*\.)?chromium\.org$
 ^(.*\.)?com\.google$
 ^(.*\.)?data-vocabulary\.org$
-^(.*\.)?deepmind\.com$
 ^(.*\.)?deja\.com$
 ^(.*\.)?digisfera\.com$
 ^(.*\.)?domains\.google$
@@ -378,7 +379,6 @@
 ^(.*\.)?g\.co$
 ^(.*\.)?gcr\.io$
 ^(.*\.)?get\.how$
-^(.*\.)?getmdl\.io$
 ^(.*\.)?ggpht\.com$
 ^(.*\.)?gmail\.com$
 ^(.*\.)?gmodules\.com$
@@ -417,7 +417,6 @@
 ^(.*\.)?picasaweb\.com$
 ^(.*\.)?polymer-project\.org$
 ^(.*\.)?questvisual\.com$
-^(.*\.)?recaptcha\.net$
 ^(.*\.)?redhotlabs\.com$
 ^(.*\.)?registry\.google$
 ^(.*\.)?schema\.org$
@@ -439,13 +438,11 @@
 ^(.*\.)?zynamics\.com$
 ^(.*\.)?kat\.cr$
 ^(.*\.)?naughtyamerica\.com$
-^(.*\.)?v2ex\.com$
 ^(.*\.)?0to255\.com$
 ^(.*\.)?100ke\.org$
 ^(.*\.)?1000giri\.net$
 ^(.*\.)?10conditionsoflove\.com$
 ^(.*\.)?10musume\.com$
-^(.*\.)?123rf\.com$
 ^(.*\.)?12bet\.com$
 ^(.*\.)?141hongkong\.com$
 ^(.*\.)?141tube\.com$
@@ -462,7 +459,6 @@
 ^(.*\.)?1eew\.com$
 ^(.*\.)?1mobile\.com$
 ^(.*\.)?2-hand\.info$
-^(.*\.)?2000fun\.com$
 ^(.*\.)?2008xianzhang\.info$
 ^(.*\.)?21andy\.com$
 ^(.*\.)?21pron\.com$
@@ -474,7 +470,6 @@
 ^(.*\.)?315lz\.com$
 ^(.*\.)?32red\.com$
 ^(.*\.)?36rain\.com$
-^(.*\.)?3a5a\.com$
 ^(.*\.)?3arabtv\.com$
 ^(.*\.)?3boys2girls\.com$
 ^(.*\.)?3ren\.ca$
@@ -507,7 +502,6 @@
 ^(.*\.)?91porn\.com$
 ^(.*\.)?92ccav\.com$
 ^(.*\.)?991\.com$
-^(.*\.)?99btgc01\.com$
 ^(.*\.)?99cn\.info$
 ^(.*\.)?9bis\.com$
 ^(.*\.)?9bis\.net$
@@ -518,13 +512,11 @@
 ^(.*\.)?abchinese\.com$
 ^(.*\.)?ablwang\.com$
 ^(.*\.)?aboluowang\.com$
-^(.*\.)?aboutgfw\.com$
 ^(.*\.)?abs\.edu$
 ^(.*\.)?accim\.org$
 ^(.*\.)?aceros-de-hispania\.com$
 ^(.*\.)?acg18\.me$
 ^(.*\.)?acgkj\.com$
-^(.*\.)?aculo\.us$
 ^(.*\.)?adelaidebbs\.com$
 ^(.*\.)?adultfriendfinder\.com$
 ^(.*\.)?adultkeep\.net$
@@ -534,7 +526,6 @@
 ^(.*\.)?aenhancers\.com$
 ^(.*\.)?af\.mil$
 ^(.*\.)?afantibbs\.com$
-^(.*\.)?ai-kan\.net$
 ^(.*\.)?ai-wen\.net$
 ^(.*\.)?aiph\.net$
 ^(.*\.)?airconsole\.com$
@@ -594,7 +585,6 @@
 ^(.*\.)?anpopo\.com$
 ^(.*\.)?answering-islam\.org$
 ^(.*\.)?www\.antd\.org$
-^(.*\.)?anthonycalzadilla\.com$
 ^(.*\.)?antiwave\.net$
 ^(.*\.)?aofriend\.com$
 ^(.*\.)?aojiao\.org$
@@ -652,7 +642,6 @@
 ^(.*\.)?axureformac\.com$
 ^(.*\.)?azerimix\.com$
 ^(.*\.)?azurewebsites\.net$
-^(.*\.)?forum\.baby-kingdom\.com$
 ^(.*\.)?backchina\.com$
 ^(.*\.)?backtotiananmen\.com$
 ^(.*\.)?badjojo\.com$
@@ -3807,12 +3796,3 @@
 ^(.*\.)?zynaima\.com$
 ^(.*\.)?zyzc9\.com$
 ^(.*\.)?zzcartoon\.com$
-^(.*\.)?phobos\.apple\.com$
-(^|\.)collector\.githubapp\.com$
-^(.*\.)?crashlytics\.com$
-^(.*\.)?addthis\.com$
-^(.*\.)?doubleclick\.net$
-^(.*\.)?winudf\.com$
-^(.*\.)?msedge\.net$
-^(.*\.)?googlesyndication\.com$
-^(.*\.)?hockeyapp\.net$
