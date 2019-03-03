@@ -57,6 +57,7 @@
 149.154.160.0/20
 
 ^(.*\.)?itch\.zone$
+^(.*\.)?zhina\.wiki$
 ^(.*\.)?phobos\.apple\.com$
 (^|\.)collector\.githubapp\.com$
 ^(.*\.)?crashlytics\.com$
