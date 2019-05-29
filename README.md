@@ -5,7 +5,10 @@ Copy from shadowsocksrr/shadowsocksr-android.Added some missing websites.
 
 绕过了gcm推送服务，避免有可能出现的gcm时断时续问题
 
-更新地址：https://raw.githubusercontent.com/CJieLuo/GFWIistforAndroidSSR/master/gfwlist.acl
+更新地址：
+GFWList https://raw.githubusercontent.com/CJieLuo/GFWIistforAndroidSSR/master/gfwlist.acl
+
+Bypass China&LAN https://raw.githubusercontent.com/CJieLuo/GFWIistforAndroidSSR/master/bypass.acl
 
 
 ## 增加CheckAccess.sh
