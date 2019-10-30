@@ -5274,6 +5274,7 @@
 223.255.252.0/23
 (^|\.|(.*))mtalk\.google\.com$
 (^|\.)baidu\.com$
+(^|\.)outlook\.com$
 
 [proxy_list]
 # Telegram IPs$
