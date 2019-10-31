@@ -5275,6 +5275,8 @@
 (^|\.|(.*))mtalk\.google\.com$
 (^|\.)baidu\.com$
 (^|\.)outlook\.com$
+(^|\.)cdn\.ampproject\.org
+(^|\.)api\.weather\.com
 
 [proxy_list]
 # Telegram IPs$
