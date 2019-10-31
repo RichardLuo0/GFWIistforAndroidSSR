@@ -5274,6 +5274,7 @@
 (^|\.)outlook\.com$
 (^|\.)cdn\.ampproject\.org
 (^|\.)api\.weather\.com
+(^|\.)v2ex\.com
 
 [proxy_list]
 # Telegram IPs$
